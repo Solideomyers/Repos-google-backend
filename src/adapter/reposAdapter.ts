@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { CustomError } from '../domain/errors/custom.error';
-import { Repos } from '../domain/errors/interfaces/interface-repos';
+import { Repos } from '../domain/interfaces/interface-repos';
 
 export class ReposAdapter {
   async getRepos(apiUrl: string, username: string): Promise<Repos[]> {
